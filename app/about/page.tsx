@@ -8,14 +8,17 @@ const AboutUsPage = () => {
     <div className="container mx-auto px-4 py-8">
       <h2 className="text-center text-3xl font-bold mb-6">About Us</h2>
       <div className="grid md:grid-cols-2 gap-8 items-start">
-        <Image
-          height={700}
-          width={500}
-          src="/img2.JPG"
-          alt="About Us Image"
-          id="image"
-          className="w-full h-auto object-cover rounded-lg shadow-lg"
-        />
+        <div className="bg-black border-solid">
+          <Image
+            quality={100}
+            height={900}
+            width={700}
+            src="/img2.JPG"
+            alt="About Us Image"
+            id="image"
+            className="w-full h-auto object-cover rounded-lg shadow-lg"
+          />
+        </div>
         <p className="text-2xl mt-0 md:mt-0">
           At Squgo your fitness and well-being are our top priority. We
           specialize in providing premium gym gear, including high-quality knee

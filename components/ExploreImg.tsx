@@ -11,7 +11,7 @@ export default function ExploreImg({ img, name }: AppProps) {
         <div className="max-h-[448px] sm:max-h-auto">
           <Image
             height={700}
-            width={400}
+            width={500}
             alt="Developer"
             src={img}
             className="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50 "

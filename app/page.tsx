@@ -43,7 +43,7 @@ export default function Home() {
                   alt="image here"
                   height={700}
                   width={500}
-                  className="absolute inset-0 h-full w-full object-cover opacity-100 group-hover:opacity-0"
+                  className="absolute inset-0 h-full w-full object-cover opacity-100 group-hover:opacity-0  duration-[1s]"
                 />
 
                 <Image
@@ -51,7 +51,7 @@ export default function Home() {
                   alt="image here"
                   height={700}
                   width={500}
-                  className="absolute inset-0 h-full w-full object-cover opacity-0 group-hover:opacity-100"
+                  className="absolute inset-0 h-full w-full object-cover opacity-0 group-hover:opacity-100  duration-[1s]"
                 />
               </div>
 
