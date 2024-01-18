@@ -11,7 +11,7 @@ const AboutUsPage = () => {
         <Image
           height={700}
           width={500}
-          src="/2.JPG"
+          src="/img2.JPG"
           alt="About Us Image"
           id="image"
           className="w-full h-auto object-cover rounded-lg shadow-lg"
