@@ -48,7 +48,7 @@ export default function ContactFormPage() {
             <div className="mb-4">
               <label
                 htmlFor="email"
-                className="block text-sm font-medium text-gray-600"
+                className="block text-sm font-medium text-black-600"
               >
                 Email
               </label>
@@ -56,7 +56,7 @@ export default function ContactFormPage() {
                 {...register("email")}
                 id="email"
                 type="email"
-                className="mt-1 p-2 w-full border border-gray-300 rounded-md focus:outline-none focus:border-blue-500"
+                className="mt-1 p-2 w-full border border-gray-300 rounded-md focus:outline-none focus:border-gray-500"
               />
               {errors.email && (
                 <p className="text-red-500 text-sm mt-1">
@@ -67,14 +67,14 @@ export default function ContactFormPage() {
             <div className="mb-4">
               <label
                 htmlFor="name"
-                className="block text-sm font-medium text-gray-600"
+                className="block text-sm font-medium text-black-600"
               >
                 Name
               </label>
               <input
                 {...register("name")}
                 id="name"
-                className="mt-1 p-2 w-full border border-gray-300 rounded-md focus:outline-none focus:border-blue-500"
+                className="mt-1 p-2 w-full border border-gray-300 rounded-md focus:outline-none focus:border-gray-500"
               />
               {errors.name && (
                 <p className="text-red-500 text-sm mt-1">
@@ -85,7 +85,7 @@ export default function ContactFormPage() {
             <div className="mb-4">
               <label
                 htmlFor="message"
-                className="block text-sm font-medium text-gray-600"
+                className="block text-sm font-medium text-black-600"
               >
                 Message
               </label>
@@ -93,7 +93,7 @@ export default function ContactFormPage() {
                 {...register("message")}
                 id="message"
                 rows={5}
-                className="mt-1 p-2 w-full border border-gray-300 rounded-md focus:outline-none focus:border-blue-500"
+                className="mt-1 p-2 w-full border border-gray-300 rounded-md focus:outline-none focus:border-gray-500"
               />
             </div>
             {errors.root && (

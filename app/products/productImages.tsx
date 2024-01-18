@@ -26,7 +26,7 @@ interface ProductGalleryProps {
 
 export function ProductGallery({ productImg }: ProductGalleryProps) {
   const { isOpen, onOpen, onOpenChange } = useDisclosure();
-  console.log(productImg);
+  // console.log(productImg);
   const [selectedImage, setImage] = useState(0);
   return (
     <div className="flex flex-col-reverse">

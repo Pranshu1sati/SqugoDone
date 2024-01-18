@@ -8,15 +8,15 @@ import ExploreImg from "../components/ExploreImg";
 import Link from "next/link";
 const explore = [
   {
-    img: "./1.JPG",
+    img: "/img1.JPG",
     name: "Knee braces provide support and stability during high-impact activities. They help prevent injuries like sprains, strains, or tears.",
   },
   {
-    img: "./2.JPG",
+    img: "/img2.JPG",
     name: "Knee braces aid recovery from injury by limiting movement, preventing re-injury, and supporting exercises in rehabilitation.",
   },
   {
-    img: "./3.JPG",
+    img: "/img3.JPG",
     name: "Knee braces enhance strength training by providing compression, improving blood flow, and offering stability during exercise.",
   },
 ];
@@ -41,18 +41,16 @@ export default function Home() {
                 <Image
                   src={item["Product Image 1"]}
                   alt="image here"
-                  quality={100}
-                  height={900}
-                  width={700}
+                  height={700}
+                  width={500}
                   className="absolute inset-0 h-full w-full object-cover opacity-100 group-hover:opacity-0"
                 />
 
                 <Image
                   src={item["Product Image 2"]}
                   alt="image here"
-                  quality={100}
-                  height={900}
-                  width={700}
+                  height={700}
+                  width={500}
                   className="absolute inset-0 h-full w-full object-cover opacity-0 group-hover:opacity-100"
                 />
               </div>
@@ -102,10 +100,12 @@ export default function Home() {
           </div>
           {/* Reviews Cards  */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[40px] mb-8">
-            <div className="block max-w-sm p-6 shadow-xl rounded-md  shadow-lg">
+            <div className="block max-w-sm p-6 shadow-xl rounded-xl ">
               <div className="flex-items-center">
                 <div className="flex-shrink-0">
                   <img
+                    height={100}
+                    width={100}
                     className="w-8 h-8 rounded-full"
                     src="https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_1280.png"
                     alt="Neil image"
@@ -171,6 +171,8 @@ export default function Home() {
               <div className="flex-items-center">
                 <div className="flex-shrink-0">
                   <img
+                    height={100}
+                    width={100}
                     className="w-8 h-8 rounded-full"
                     src="https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_1280.png"
                     alt="Neil image"
@@ -237,6 +239,8 @@ export default function Home() {
               <div className="flex-items-center">
                 <div className="flex-shrink-0">
                   <img
+                    height={100}
+                    width={100}
                     className="w-8 h-8 rounded-full"
                     src="https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_1280.png"
                     alt="Neil image"
@@ -303,6 +307,8 @@ export default function Home() {
               <div className="flex-items-center">
                 <div className="flex-shrink-0">
                   <img
+                    height={100}
+                    width={100}
                     className="w-8 h-8 rounded-full"
                     src="https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_1280.png"
                     alt="Neil image"

@@ -1,13 +1,17 @@
 import React from "react";
 // import { title } from "@/components/primitives";
 
+import Image from "next/image";
+
 const AboutUsPage = () => {
   return (
     <div className="container mx-auto px-4 py-8">
       <h2 className="text-center text-3xl font-bold mb-6">About Us</h2>
       <div className="grid md:grid-cols-2 gap-8 items-start">
-        <img
-          src="./2.JPG"
+        <Image
+          height={700}
+          width={500}
+          src="/2.JPG"
           alt="About Us Image"
           id="image"
           className="w-full h-auto object-cover rounded-lg shadow-lg"

@@ -9,16 +9,8 @@ import {
 } from "@nextui-org/navbar";
 import Image from "next/image";
 import { SiFlipkart, SiAmazon, SiFacebook, SiInstagram } from "react-icons/si";
-import { Button } from "@nextui-org/button";
-import { Kbd } from "@nextui-org/kbd";
+
 import { Link } from "@nextui-org/link";
-import { Input } from "@nextui-org/input";
-
-import { link as linkStyles } from "@nextui-org/theme";
-
-import { siteConfig } from "@/config/site";
-import NextLink from "next/link";
-import clsx from "clsx";
 
 // import { ThemeSwitch } from "@/components/theme-switch";
 // import {
@@ -57,17 +49,20 @@ export const Navbar = () => {
       <NavbarContent className="sm:hidden" justify="start">
         <NavbarMenuToggle className="sm:hidden" />
       </NavbarContent>
+
       <NavbarBrand className="justify-start mr-28 sm:z-10 sm:mb-[0.4rem] child h-full overflow-clip">
-        <Image
-          src={"/Logo.png"}
-          alt="Logo"
-          width={100}
-          height={100}
-          className={`dark text-foreground bg-background`}
-        ></Image>
+        <Link href="/">
+          <Image
+            src={"/Logo.png"}
+            alt="Logo"
+            width={100}
+            height={100}
+            className={`dark text-foreground bg-background`}
+          ></Image>
+        </Link>
       </NavbarBrand>
 
-      <NavbarContent className="hidden sm:flex gap-4" justify="center">
+      <NavbarContent className="hidden sm:flex gap-4" justify="end">
         <NavbarItem>
           <Link color="foreground" href="/">
             Home
@@ -105,7 +100,7 @@ export const Navbar = () => {
         </Link>
         <Link
           color="foreground"
-          href="ttps://www.amazon.in/stores/Squgo/page/3455AF0E-74DD-4F4E-A919-EE8E9489368F?ref_=ast_bln"
+          href="https://www.amazon.in/stores/Squgo/page/3455AF0E-74DD-4F4E-A919-EE8E9489368F?ref_=ast_bln"
         >
           <NavbarItem>
             <SiAmazon />
@@ -119,12 +114,6 @@ export const Navbar = () => {
             <SiFlipkart />
           </NavbarItem>
         </Link>
-
-        {/* <NavbarItem>
-          <ThemeSwitch className="hidden" />
-        </NavbarItem> */}
-        {/* <NavbarItem className="">{<ThemeSwitch />}
-        </NavbarItem> */}
       </NavbarContent>
 
       <NavbarMenu>

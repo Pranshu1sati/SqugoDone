@@ -87,18 +87,16 @@ const Page = () => {
                   <Image
                     src={item["Product Image 1"]}
                     alt="image here"
-                    quality={100}
-                    height={900}
-                    width={700}
+                    height={700}
+                    width={500}
                     className="absolute inset-0 h-full w-full object-cover opacity-100 group-hover:opacity-0"
                   />
 
                   <Image
                     src={item["Product Image 2"]}
                     alt="image here"
-                    quality={100}
-                    height={900}
-                    width={700}
+                    height={700}
+                    width={500}
                     className="absolute inset-0 h-full w-full object-cover opacity-0 group-hover:opacity-100"
                   />
                 </div>
