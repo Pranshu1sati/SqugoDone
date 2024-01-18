@@ -7,11 +7,11 @@ import {
   ModalHeader,
   ModalBody,
   ModalFooter,
-  Button,
+  // Button,
   useDisclosure,
-  Checkbox,
-  Input,
-  Link,
+  // Checkbox,
+  // Input,
+  // Link,
 } from "@nextui-org/react";
 // import { urlForImage } from "@/sanity/lib/image"
 
