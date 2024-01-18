@@ -30,7 +30,7 @@ const Page = () => {
               <p className="mt-4 max-w-md dark:text-gray-400">
                 Discover the ultimate blend of support and comfort with our
                 premium athletic gear. Our collection is designed to elevate
-                your performance, whether you're hitting the gym or the
+                your performance, whether you`&apos;`re hitting the gym or the
                 pavement.
               </p>
             </header>

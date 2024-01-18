@@ -8,16 +8,16 @@ import ExploreImg from "../components/ExploreImg";
 import Link from "next/link";
 const explore = [
   {
-    img: "./1R5A9121.JPG",
-    name: "Knee braces are designed to provide support and stability to the knee joint during high-impact activities and exercises. They are particularly useful for workouts that involve running, jumping, or rapid direction changes, which can put a lot of stress on the knees. By stabilizing the knee joint and distributing the force exerted on the knee, braces can help prevent injuries such as sprains, strains, or ligament tears",
+    img: "./1.JPG",
+    name: "Knee braces provide support and stability during high-impact activities. They help prevent injuries like sprains, strains, or tears.",
   },
   {
     img: "./2.JPG",
-    name: "For individuals recovering from a knee injury, knee braces can play a crucial role in the rehabilitation process. They help in limiting movement to a safe range, preventing re-injury, and providing the support needed to perform specific exercises during the recovery phase. This is particularly important for athletes and fitness enthusiasts who are eager to return to their regular training regimen post-injury.",
+    name: "Knee braces aid recovery from injury by limiting movement, preventing re-injury, and supporting exercises in rehabilitation.",
   },
   {
-    img: "./3.jpeg",
-    name: "For those engaged in strength training, especially exercises that involve heavy lifting like squats or lunges, knee braces can aid in enhancing overall performance. They do so by providing compression, which can increase blood flow and reduce pain and swelling during and after workouts. Additionally, they offer proprioceptive feedback, which can improve the sense of stability and body awareness during exercise.",
+    img: "./3.JPG",
+    name: "Knee braces enhance strength training by providing compression, improving blood flow, and offering stability during exercise.",
   },
 ];
 export default function Home() {
@@ -67,7 +67,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex flex-col flex-nowrap gap-[40px] h-min justify-start overflow-hidden py-0 px-[24px] sm:px-[40px] mt-[120px]">
+      <div className="flex flex-col flex-nowrap gap-[40px] h-min justify-start overflow-hidden py-0 px-[24px] sm:px-[40px] mt-[120px] ">
         <div className="flex flex-col flex-start  flex-shrink-0">
           <h1 className="text-[2rem] text-bold">Explore</h1>
         </div>
@@ -102,7 +102,7 @@ export default function Home() {
           </div>
           {/* Reviews Cards  */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[40px] mb-8">
-            <a href="#" className="block max-w-sm p-6 shadow-xl rounded-md">
+            <div className="block max-w-sm p-6 shadow-xl rounded-md  shadow-lg">
               <div className="flex-items-center">
                 <div className="flex-shrink-0">
                   <img
@@ -166,7 +166,7 @@ export default function Home() {
                 Guys, if you want a premium product in this range. Don`&apos;`t
                 think twice. Just go for it. Love this product.
               </p>
-            </a>
+            </div>
             <a href="#" className="block max-w-sm p-6 shadow-xl rounded-md">
               <div className="flex-items-center">
                 <div className="flex-shrink-0">

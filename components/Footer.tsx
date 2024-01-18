@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <footer
       className={`border-t ${
-        path.includes("/products/") ? "mt-[32rem] sm:mt-72" : "mt-12"
+        path.includes("/products/") ? "mt-[60rem] sm:mt-96" : "mt-12"
       }`}
     >
       <div className="mx-auto max-w-7xl px-6 py-12 sm:py-20 lg:px-8">

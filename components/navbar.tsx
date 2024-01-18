@@ -20,7 +20,7 @@ import { siteConfig } from "@/config/site";
 import NextLink from "next/link";
 import clsx from "clsx";
 
-import { ThemeSwitch } from "@/components/theme-switch";
+// import { ThemeSwitch } from "@/components/theme-switch";
 // import {
 //   TwitterIcon,
 //   GithubIcon,
@@ -120,10 +120,11 @@ export const Navbar = () => {
           </NavbarItem>
         </Link>
 
-        <NavbarItem>
+        {/* <NavbarItem>
           <ThemeSwitch className="hidden" />
-        </NavbarItem>
-        <NavbarItem className="">{<ThemeSwitch />}</NavbarItem>
+        </NavbarItem> */}
+        {/* <NavbarItem className="">{<ThemeSwitch />}
+        </NavbarItem> */}
       </NavbarContent>
 
       <NavbarMenu>
