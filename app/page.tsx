@@ -6,6 +6,8 @@ import ExploreImg from "../components/ExploreImg";
 // import { Slider } from "@nextui-org/react";
 // import MySlider from "../components/MySlider";
 import Link from "next/link";
+// import { shimmer, toBase64 } from "@/lib/image"
+
 const explore = [
   {
     img: "/img1.JPG",
@@ -41,6 +43,8 @@ export default function Home() {
                 <Image
                   src={item["Product Image 1"]}
                   alt="image here"
+                  placeholder="blur"
+                  blurDataURL={`data:image/svg+xml;base64,`}
                   height={700}
                   width={500}
                   className="absolute inset-0 h-full w-full object-cover opacity-100 group-hover:opacity-0  duration-[1s]"
@@ -49,6 +53,8 @@ export default function Home() {
                 <Image
                   src={item["Product Image 2"]}
                   alt="image here"
+                  placeholder="blur"
+                  blurDataURL={`data:image/svg+xml;base64,`}
                   height={700}
                   width={500}
                   className="absolute inset-0 h-full w-full object-cover opacity-0 group-hover:opacity-100  duration-[1s]"
@@ -163,7 +169,7 @@ export default function Home() {
                 </svg>
               </div>
               <p className="font-normal ">
-                Guys, if you want a premium product in this range. Don`&apos;`t
+                Guys, if you want a premium product in this range. Don&apos;t
                 think twice. Just go for it. Love this product.
               </p>
             </div>
@@ -299,8 +305,8 @@ export default function Home() {
               </div>
               <p className="font-normal text-center sm:text-left">
                 These work great for compression and support. They fit nicely
-                and they don`&apos;`t slip or fall down. I wear them for 12
-                hours plus a day and have no issues with comfort.
+                and they don&apos;t slip or fall down. I wear them for 12 hours
+                plus a day and have no issues with comfort.
               </p>
             </a>
             <a href="#" className="block max-w-sm p-6 shadow-xl rounded-md">

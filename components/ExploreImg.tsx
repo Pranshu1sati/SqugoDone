@@ -12,6 +12,8 @@ export default function ExploreImg({ img, name }: AppProps) {
           <Image
             height={700}
             width={500}
+            placeholder="blur"
+            blurDataURL={`data:image/svg+xml;base64,`}
             alt="Developer"
             src={img}
             className="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50 "

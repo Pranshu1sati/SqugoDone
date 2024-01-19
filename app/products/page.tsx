@@ -30,7 +30,7 @@ const Page = () => {
               <p className="mt-4 max-w-md dark:text-gray-400">
                 Discover the ultimate blend of support and comfort with our
                 premium athletic gear. Our collection is designed to elevate
-                your performance, whether you`&apos;`re hitting the gym or the
+                your performance, whether you&apos;re hitting the gym or the
                 pavement.
               </p>
             </header>
@@ -87,16 +87,20 @@ const Page = () => {
                   <Image
                     src={item["Product Image 1"]}
                     alt="image here"
-                    height={700}
-                    width={500}
+                    placeholder="blur"
+                    blurDataURL={`data:image/svg+xml;base64,`}
+                    height={600}
+                    width={400}
                     className="absolute inset-0 h-full w-full object-cover opacity-100 group-hover:opacity-0 duration-[1s]"
                   />
 
                   <Image
                     src={item["Product Image 2"]}
                     alt="image here"
-                    height={700}
-                    width={500}
+                    placeholder="blur"
+                    blurDataURL={`data:image/svg+xml;base64,`}
+                    height={600}
+                    width={400}
                     className="absolute inset-0 h-full w-full object-cover opacity-0 group-hover:opacity-100 duration-[1s]"
                   />
                 </div>
