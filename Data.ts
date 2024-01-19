@@ -127,9 +127,9 @@ export const data = [
     "Product Description ":
       "Optimimum compression to hold and compress knee muscles\n enahance your sports performance by increasing muscle density and blood circulation around the knee - injury prevention series\n Strong support and protection to ligamnets and tendons 3D knitting technology for uniform compression, to reduce pressure on patella and holds patella in place during activity or curing knee injury\n Special silicon printing on the inside to prevent slippage\n Suitable for all sports, Gym and atheletic training - Running, Cycling, Cricket, Football, sports climimbing, weightlifting etc.\n Unisex",
     "Product Size": ["S", "M", "L", "XL"],
-    "Product Image 1": "/3.2/1.jpg",
+    "Product Image 1": "/3.2/3.jpg",
     "Product Image 2": "/3.2/2.jpg",
-    "Product Image 3": "/3.2/3.jpg",
+    "Product Image 3": "/3.2/1.jpg",
     "Product Image 4": "/3.2/4.jpg",
     "Product Image 5": "/3.2/5.jpg",
     "Product Image 6": "/3.2/6.jpg",
